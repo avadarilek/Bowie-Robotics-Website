@@ -28,3 +28,9 @@ li a {
 li a:hover {
   background-color: #686d76;
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}

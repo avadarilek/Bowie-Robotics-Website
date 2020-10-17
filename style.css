@@ -46,6 +46,15 @@ span{
   display: flex;
   justify-content: center;
 }
+.calendar{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 150px;
+}
+
 
 #img1{
 
@@ -59,7 +68,4 @@ span{
 #logoBackground{
   background-color: #d6e0f0;
   border: 5px solid #810000;
-}
-#calendar{
-  
 }

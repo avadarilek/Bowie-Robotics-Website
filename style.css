@@ -8,6 +8,7 @@ h1{
   float:left;
   padding-left:10px;
 
+
 }
 ul {
   list-style-type: none;
@@ -37,6 +38,15 @@ img{
   margin-right: auto;
   width: 10%;
 }
+div{
+  display: flex;
+  justify-content: center;
+}
+span{
+  display: flex;
+  justify-content: center;
+}
+
 #img1{
 
   padding-left:10px;
@@ -45,4 +55,11 @@ img{
 #img2{
   margin-left:10px;
   float:left;
+}
+#logoBackground{
+  background-color: #d6e0f0;
+  border: 5px solid #810000;
+}
+#calendar{
+  
 }

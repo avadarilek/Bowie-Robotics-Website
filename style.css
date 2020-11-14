@@ -55,7 +55,6 @@ span{
   height: 90vh;
 }
 
-
 #img1{
 
   padding-left:10px;
@@ -104,7 +103,7 @@ justify-content: center;
   color: white;
 }
 
-#fieldset{
+fieldset{
 padding-left:50px;
 padding-right: 50px;
 padding-top: 10px;
@@ -113,6 +112,7 @@ font-size: 20px;
 border: 5px solid black;
 border-radius: 30px;
 }
+
 #title{
 display: flex;
 justify-content: center;

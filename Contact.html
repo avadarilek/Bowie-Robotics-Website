@@ -8,17 +8,43 @@
     <title>Contact</title>
   </head>
   <body>
-    <ul>
-      <li><a href="index.html">Main Page</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="How to join.html">How to Join</a></li>
-        <li><a href="Calendar.html">Calendar</a></li>
-        <li><a href="Teams.html">Teams</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Alumni.html">Alumni</a></li>
-        <li><a href="IRHS.html">IRHS</a></li>
-        <li><a href="Events.html">Events</a></li>
+    <ul id="unordered">
+      <li id="navigation"><a id="link" href="index.html">Main Page</a></li>
+      <li id="navigation"><a id="link" href="about.html">About</a></li>
+      <li id="navigation"><a id="link" href="How to join.html">How to Join</a></li>
+      <li id="navigation"><a id="link" href="Calendar.html">Calendar</a></li>
+      <li id="navigation"><a id="link" href="Teams.html">Teams</a></li>
+      <li id="navigation"><a id="link" href="Contact.html">Contact</a></li>
+      <li id="navigation"><a id="link" href="Alumni.html">Alumni</a></li>
+      <li id="navigation"><a id="link" href="IRHS.html">IRHS</a></li>
+      <li id="navigation"><a id="link" href="Events.html">Events</a></li>
     </ul>
-<h1>Contact</h1>
+<h1>Contact</h1><br><br><br><br>
+<form class="order" action="mailto:avadarilek@gmail.com ?subject=Robotics Contact Form" method="post"  enctype="text/plain">
+  <fieldset>
+   <legend>To contact Mr. Bowman, fill out this form</legend>
+   <br><br>
+   <label for="name">Your Name:</label>
+   <input type="text" name="name" required><br><br>
+
+   <label for="email">Your Email:</label>
+   <input type="email" name="email" required><br><br>
+
+   <label for="radio">Who are you: </label><br><br>
+   <input type="radio" name="this is from a " value="Student">Student<br>
+   <input type="radio" name="this is from a " value="Robotics member">Robotics Member <br>
+   <input type="radio" name="this is from a " value="Parent">Parent <br>
+   <input type="radio" name="this is from a " value="Other">Other <br>
+
+
+<br><br>
+   <label for="text">Write your message to Mr. Bowman here: </label><br>
+
+   <textarea name="message" rows="10" cols="100" required></textarea><br>
+
+   <input id="submitButton"type="submit" value="Submit">
+  </fieldset>
+</form>
+
   </body>
 </html>
